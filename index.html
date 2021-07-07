@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--Navbar-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+    <!--Header-->
+    <div class="jumbotron jumbotron-fluid header" id="top">
+        <div class="container">
+            <h1 class="display-4 nathan">Hi, I'm Nathan</h1>
+            <h6 class=" webdev">A Web Developer</h6>
+            <div class="row">
+            <ul class="col-md-8 col-6 listHeader">
+              <li><a href="./assets/NathanRESUME2019 copy.docx" class="animation" download="Nathan Gee's Resume">Resume</a></li>
+              <li><a href="#projects" class="animation">Projects</a></li>
+              <li><a href="#aboutSection" class="animation">About</a></li>
+              <li><a href=""" data-bs-toggle="modal"data-bs-target="#myModal"  class="animation">Contact</a></li>
+              <li><a href="https://www.linkedin.com/in/nathan-gee-130635a2" target="_blank" class="animation"><i class="fa fa-linkedin-square" style="font-size:48px;color:red"></i></a></li>
+              <li><a href="https://github.com/NATHAN-GEE" target="_blank" class="animation"><i class="fa fa-github" style="font-size: 48px;color: red;"></i></a></li>
+              <!-- <a href="" data-bs-toggle="modal" data-bs-target="#myModal">Contact</a> -->
+            </ul>
+            <div class="col-md-4 col-6 logo">
+                <h6>DevelopingNathan</h6>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mainText">
+      <h2 class="project-header">Projects</h2>
+        <div class="row mainRow" id="projects">    
+            <div class="accordion accordion-flush col-12" id="accordionExample">
+                <div class="row">
+                <div class="col-md-4">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Weather API App
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                        <div class="card project1">
+                            <img src="./assets/Weather.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Here is a <a href="">link</a> for the weather api I built for my simple first project.
+                            </div>
+                        </div>
+            
+                  </div>
+                </div>
+              </div>
+              </div>
+                <div class="col-md-4">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Cocktail DB search App
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+
+                        <div class="card project3">
+                            <img src="./assets/Cocktail.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Here is a <a href="https://ng-cocktails.web.app/">link</a> to an API I created that will give you drinks imgs,recipies, and ingredients.</p>
+                            </div>
+                        </div>
+
+                  </div>
+                </div>
+              </div>
+              </div>
+                <div class="col-md-4">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Random Quiz question API app
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="card project2">
+                        <img src="./assets/Quiz.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Here is a <a href="https://nathan-gee.github.io/Quiz-API/">link</a> for the quiz game api. It as simple quiz that gets 10 random questions from multiple different catagories.
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+                <div class="col-md-4">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                    Guessing Game
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="card project4">
+                        <img src="./assets/GuessGame.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"> Here is a <a href="">link</a> to a Guessing game I made. It keeps a highscore with amount of times you guessed in the previous game. Try to beat your score.
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+                <div class="col-md-4">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                    Pig game
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="card project5">
+                      <img src="./assets/pig.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Here is a <a href="https://nathan-gee.github.io/Pig-Game/">link</a> for a Pig game that I created. Pig is a game where 2 players try to reach 100 first from dice roll.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="col-md-4">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                    Kast Static Page
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="card project6">
+                      <img src="./assets/kast.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text"><a href=""></a>Here is a <a href="https://nathan-gee.github.io/Static-Web-Page/">link</a> to the static site I created for Kast. Kast is a movie watch party software. This project shows the ability to create a clone website matching all the css properites.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="col-md-4">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                      aria-expanded="false" aria-controls="collapseSeven">
+                      CodePen CSS Dog
+                    </button>
+                  </h2>
+                  <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="card project6">
+                        <div class="card-body">
+                        <p class="codepen" data-zoom="0.25" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="MWpZamx"
+                          data-user="nathan-gee"
+                          style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                          <span>See the Pen <a href="https://codepen.io/nathan-gee/pen/MWpZamx">
+                              CSS Creature</a> by NATHAN-GEE (<a href="https://codepen.io/nathan-gee">@nathan-gee</a>)
+                            on <a href="https://codepen.io">CodePen</a>.</span>
+                        </p>
+                        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                        <p>Here is my dog I created with just CSS.</p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- row for accordion-->
+            </div>    
+        </div>
+    </div>
+    <div class="container-fluid aboutSection"id="aboutSection">
+      <img src="./assets/nathan.jpg" class="img-thumbnail nathanAbout" >
+      <h2 class="col-md-12 col-12">About me...</h2><br>
+        <p> My name is Nathan Gee. In 2019 I left my former job of a retail Manager to pursue programming. Life was tough as I began
+        my journey. I hunted for a job but had little jobs in-between to get by financially. I did roofing and I worked with a
+        company writing standard operating procedures. I landed a job during Covid-19 in 2020. A company of the name Northwind
+        Pharmaceuticals took me on for warehouse and I.T. work. I work there to this day.</p>
+        <p> On June 6th 2021 I was introduced to Eleven-Fifty Academy (EFA). They have a web development program that I was able to
+        be a part of. The process of enrollment was smooth and I was a student 3 days later. At the point of writing this update
+        I have finished 1/3rd of the program. I've come a long way of refining coding skills and logic. These skills cover HTML,
+        CSS, JavaScript, UX/UI design, and even Agile Scrum. I am very pleased with my progress and I am ready to see how far
+        journey takes me.</p>
+        <p> Please contact me if you have further questions or general interest.</p>
+    </div>
+    <footer class="footer">
+      <div class="contain-fluid">
+        <div class="row">
+          <div class="col-md-12 col-12 footer-link">
+            <ul class="list-group list-group-horizontal">
+    
+              <li class="list-group-item flex-fill footer-list" id='footer'><a href="" data-bs-toggle="modal"
+                  data-bs-target="#myModal">Contact</a></li>
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="ModalLabel">Please contact me here:</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="container">
+                        <div class="email">
+                        <form id="myform" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mbjqkvwl"
+                          method="post">
+                          <fieldset id="fs-frm-inputs">
+                            <label for="full-name">Full Name</label><br>
+                            <input type="text" name="name" id="full-name" placeholder="First and Last" required=""><br>
+                            <label for="email-address">Email Address</label><br>
+                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""><br>
+                            <label for="message">Reason for contact</label><br>
+                            <textarea rows="5" name="message" id="message" placeholder="text here" required="yes"></textarea>
+                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                          </fieldset>
+                          <input type="submit" value="Submit" class="submit">
+                        </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <li class="list-group-item flex-fill footer-list"><a href="#top">Top</a></li>
+              <li class="list-group-item flex-fill footer-list"><a href="#projects">Projects</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2021 Copyright: Developingnathan
+        </div>
+      </div>
+    </footer>
+    
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>

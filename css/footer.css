@@ -1,0 +1,53 @@
+.footer {
+  background-color: rgb(14, 5, 65);
+  color: white;
+  padding-top: 50px;
+}
+.footer-link {
+  display: flex;
+  justify-content: center;
+}
+.footer-list {
+  background-color: rgb(14, 5, 65);
+}
+.footer-list a {
+  text-decoration: none;
+  color: white;
+}
+#myInput {
+  color: black;
+}
+.email,
+.modal-body {
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(14, 5, 65, 1) 47%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  margin: 0;
+  padding: 0;
+}
+.modal-header {
+  background-color: rgb(2, 0, 36);
+  color: white;
+}
+.modal-footer {
+  background-color: red;
+  color: white;
+}
+.modal-title {
+  color: white;
+}
+.btn-secondary {
+  background-color: rgb(14, 5, 65);
+  color: white;
+}
+.submit {
+  background-color: rgb(14, 5, 65);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

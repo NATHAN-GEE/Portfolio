@@ -1,0 +1,41 @@
+#myform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutSection{
+    background-color: white;
+    color: black;
+}
+.nathanAbout{
+    border-radius: 50%;
+    float: left;
+    margin-top: -15px;
+}
+#aboutSection{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#aboutSection p{
+    padding-left: 15px;
+}
+.logo{
+    border-top: solid 3px white;
+    border-right: solid 3px white;
+    border-bottom: solid 3px white;
+    border-left: none;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.logo h6{
+    font-size: 24px;
+    color: white;
+    padding-right: 10px;
+}

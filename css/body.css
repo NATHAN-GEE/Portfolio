@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(2, 2, 49);
+}
+
+.accordion-button{
+    background-color: rgb(2, 2, 49);
+    border: none;
+    color: white;
+}
+
+.accordion, .accordion-group, .accordion-heading, .accordion-collapse, .accordion-body{
+    border: none;
+    background-color: rgb(2, 2, 49);
+
+}
+.collaspeOne, .collaspeTwo, .collaspeThree, .collaspeFour, .collaspeFive, .collaspeSix{
+    border: none;
+    background-color: rgb(2, 2, 49);
+}
