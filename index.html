@@ -45,7 +45,7 @@
               <li><a href="./assets/NathanRESUME2019 copy.docx" class="animation" download="Nathan Gee's Resume">Resume</a></li>
               <li><a href="#projects" class="animation">Projects</a></li>
               <li><a href="#aboutSection" class="animation">About</a></li>
-              <li><a href=""" data-bs-toggle="modal"data-bs-target="#myModal"  class="animation">Contact</a></li>
+              <li><a href="#contact" class="animation">Contact</a></li>
               <li><a href="https://www.linkedin.com/in/nathan-gee-130635a2" target="_blank" class="animation"><i class="fa fa-linkedin-square" style="font-size:48px;color:red"></i></a></li>
               <li><a href="https://github.com/NATHAN-GEE" target="_blank" class="animation"><i class="fa fa-github" style="font-size: 48px;color: red;"></i></a></li>
               <!-- <a href="" data-bs-toggle="modal" data-bs-target="#myModal">Contact</a> -->
@@ -189,16 +189,33 @@
         journey takes me.</p>
         <p> Please contact me if you have further questions or general interest.</p>
     </div>
+    <div class="container-fluid contactPage">
+      <h2>Reach me here</h2>
+      <div class="container-fluid email" id="contact">
+        <form id="myform" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mbjqkvwl"
+          method="post">
+          <fieldset id="fs-frm-inputs" class="col-md-8 col-12 form">
+            <label for="full-name">Full Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First and Last" required="yes"><br>
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@domain" required="yes"><br>
+            <label for="message">Reason for contact</label>
+            <textarea rows="5" name="message" id="message" placeholder="text here" required="yes"></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </fieldset>
+          <input type="submit" value="Connect" class="submit">
+        </form>
+      </div>
+    </div>
     <footer class="footer">
       <div class="contain-fluid">
         <div class="row">
           <div class="col-md-12 col-12 footer-link">
             <ul class="list-group list-group-horizontal">
     
-              <li class="list-group-item flex-fill footer-list" id='footer'><a href="" data-bs-toggle="modal"
-                  data-bs-target="#myModal">Contact</a></li>
+              <li class="list-group-item flex-fill footer-list" id='footer'><a href="#contact">Contact</a></li>
               <!-- Modal -->
-              <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+              <!-- <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -206,33 +223,21 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      <div class="container">
-                        <div class="email">
-                        <form id="myform" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mbjqkvwl"
-                          method="post">
-                          <fieldset id="fs-frm-inputs">
-                            <label for="full-name">Full Name</label><br>
-                            <input type="text" name="name" id="full-name" placeholder="First and Last" required=""><br>
-                            <label for="email-address">Email Address</label><br>
-                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""><br>
-                            <label for="message">Reason for contact</label><br>
-                            <textarea rows="5" name="message" id="message" placeholder="text here" required="yes"></textarea>
-                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                          </fieldset>
-                          <input type="submit" value="Submit" class="submit">
-                        </form>
-                        </div>
-                      </div>
+                      
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
               <li class="list-group-item flex-fill footer-list"><a href="#top">Top</a></li>
               <li class="list-group-item flex-fill footer-list"><a href="#projects">Projects</a></li>
             </ul>
+          </div>
+          <div class="col-md-4 col-6 logo2">
+            <h6>DevelopingNathan</h6>
+          </div>
           </div>
         </div>
         <div class="footer-copyright text-center py-3">© 2021 Copyright: Developingnathan
